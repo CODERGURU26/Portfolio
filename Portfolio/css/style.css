@@ -1,0 +1,17 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+section{
+    padding-bottom: 20px;
+    padding-top: 20px;   
+}
+
+header .container{
+    padding: 40px;
+}
