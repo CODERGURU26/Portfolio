@@ -15,3 +15,32 @@ section{
 header .container{
     padding: 40px;
 }
+
+header {
+    background-color: rgb(254, 241, 226);
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: rgb(59, 57, 57);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
