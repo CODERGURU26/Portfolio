@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-md-7 ">
                     <p text-center>Hello ! <strong> I'm Self-Motivated Web Developer</strong> and i can create
-                        <strong>Responsive and User-freindly Websites</strong> , reccently i have built an
+                        <strong>Responsive and User-friendly Websites</strong> , recently i have built an
                         <strong>E-commerce Website</strong> named <strong>SwitKart</strong> with the help of
                         <strong>ReactJS , Firebase , cloudinary & Razorpay Integration </strong>
                     </p>
@@ -305,19 +305,28 @@
                 </div>
 
                 <div class="col-md-7" id="form">
-                    <form class="p-4  border  rounded bg-light ">
-                        <label>Fullname</label>
-                        <input type="text" name="fullname" placeholder="Gururaj Sharma">
+                    <form class="p-4 border rounded bg-light">
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label">Fullname</label>
+                            <input type="text" class="form-control" id="fullname" name="fullname"
+                                placeholder="Gururaj Sharma" required>
+                        </div>
 
-                        <label>Email</label>
-                        <input type="email" name="email" placeholder="example@gmail.com">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="example@gmail.com" required>
+                        </div>
 
-                        <label>Message Me</label>
-                        <textarea placeholder="Write Your Query Here" name="message" id="message">
-                        </textarea>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message Me</label>
+                            <textarea class="form-control" id="message" name="message" rows="4"
+                                placeholder="Write Your Query Here" required></textarea>
+                        </div>
 
-                        <button class="btn btn-primary w-100 m-2  rounded p-2">Submit</button>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
                     </form>
+
                 </div>
             </div>
         </div>
