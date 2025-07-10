@@ -44,3 +44,26 @@ footer {
     align-items: center;
     margin: 10px;
 }
+
+#icons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+#form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
+
+#form textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}

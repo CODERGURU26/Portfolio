@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- remixicon file -->
-     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
             <a class="navbar-brand" href="#">Gururaj Sharma</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -38,7 +39,7 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#exp">Expericence</a>
+                        <a class="nav-link" href="#certificate">Certificates</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
@@ -52,8 +53,9 @@
     </nav>
 
     <!--Intro Section -->
-    <header style="height: 100vh;" class=" d-flex align-items-center text-center">
-        <div class="container bg-light">
+    <header style="height: 100vh;"
+        class=" d-flex align-items-center text-center animate__animated animate__fadeInDownBig ">
+        <div class="container bg-light ">
             <h1>Hi , I'm <span class="text-danger-emphasis">Gururaj Sharma</span></h1>
             <p class="lead mt-3">
                 A passionate <strong>Full-Stack Developer</strong> and student, building modern and scalable web apps
@@ -68,7 +70,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="aboutMe" class="bg-dark text-warning">
+    <section id="aboutMe" class="bg-dark text-warning" data-aos="fade-up">
         <div class="container">
             <h2 class="text-center mb-4">About Me</h2>
             <div class="row align-items-center">
@@ -94,7 +96,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="bg-light py-5">
+    <section id="projects" class="bg-light py-5" data-aos="fade-up">
         <div class="container">
             <h2 class="text-center mb-5">Projects</h2>
             <div class="row g-4">
@@ -144,9 +146,9 @@
         </div>
     </section>
 
-    <!-- Expericence Section -->
-    <section id="exp" class="bg-dark py-5">
-        <h2 class="text-warning text-center">Experience</h2>
+    <!-- Certificate Section -->
+    <section id="certificate" class="bg-dark py-5" data-aos="fade-up">
+        <h2 class="text-warning text-center">Certificates</h2>
         <div class="container">
             <div class="row g-4 justify-content-center">
 
@@ -196,7 +198,7 @@
                             style="height: 200px; object-fit: cover;">
                         <div class="card-body">
                             <h5 class="card-title">
-                            Html & CSS Bootcamp by letsUpgrade</h5>
+                                Html & CSS Bootcamp by letsUpgrade</h5>
                             <a href="https://verify.letsupgrade.in/certificate/LUEHTMLJUL1251512"
                                 class="btn btn-outline-primary btn-sm w-100">Preview</a>
                         </div>
@@ -209,51 +211,57 @@
 
 
     <!-- Skiils Section -->
-   <section id="skills" class="py-5 bg-light">
-  <h2 class="text-center mb-4">Skills</h2>
-  <div class="container">
-    <div class="row justify-content-center text-center g-4">
+    <section id="skills" class="py-5 bg-light" data-aos="fade-up">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="container">
+            <div class="row justify-content-center text-center g-4">
 
-      <!-- Skill 1 -->
-      <div class="col-6 col-md-3 col-lg-2">
-        <img src="https://jujusolutions.com/wp-content/uploads/2021/05/html5ICON.png" alt="HTML" class="img-fluid skill-icon" />
-        <p class="mt-2">HTML</p>
-      </div>
+                <!-- Skill 1 -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <img src="https://jujusolutions.com/wp-content/uploads/2021/05/html5ICON.png" alt="HTML"
+                        class="img-fluid skill-icon" />
+                    <p class="mt-2">HTML</p>
+                </div>
 
-      <!-- Skill 2 -->
-      <div class="col-6 col-md-3 col-lg-2">
-        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS" class="img-fluid skill-icon" />
-        <p class="mt-2">CSS</p>
-      </div>
+                <!-- Skill 2 -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS"
+                        class="img-fluid skill-icon" />
+                    <p class="mt-2">CSS</p>
+                </div>
 
-      <!-- Skill 3 -->
-      <div class="col-6 col-md-3 col-lg-2">
-        <img src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="Bootstrap" class="img-fluid skill-icon" />
-        <p class="mt-2">Bootstrap</p>
-      </div>
+                <!-- Skill 3 -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <img src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="Bootstrap"
+                        class="img-fluid skill-icon" />
+                    <p class="mt-2">Bootstrap</p>
+                </div>
 
-      <!-- Skill 4 -->
-      <div class="col-6 col-md-3 col-lg-2">
-        <img src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png" alt="JavaScript" class="img-fluid skill-icon" />
-        <p class="mt-2">JavaScript</p>
-      </div>
+                <!-- Skill 4 -->
+                <div class="col-6 col-md-3 col-lg-2">
+                    <img src="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png"
+                        alt="JavaScript" class="img-fluid skill-icon" />
+                    <p class="mt-2">JavaScript</p>
+                </div>
 
-      <div class="col-6 col-md-3 col-lg-2">
-        <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png" alt="ReactJS" class="img-fluid skill-icon" />
-        <p class="mt-2">ReactJS</p>
-      </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png"
+                        alt="ReactJS" class="img-fluid skill-icon" />
+                    <p class="mt-2">ReactJS</p>
+                </div>
 
-      <div class="col-6 col-md-3 col-lg-2">
-        <img src="https://miro.medium.com/v2/resize:fit:610/1*VIRHl6tESXfPaVOqEW3DeA.png" alt="MySQL" class="img-fluid skill-icon" />
-        <p class="mt-4">MySQL</p>
-      </div>   
-    </div>
-  </div>
-</section>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <img src="https://miro.medium.com/v2/resize:fit:610/1*VIRHl6tESXfPaVOqEW3DeA.png" alt="MySQL"
+                        class="img-fluid skill-icon" />
+                    <p class="mt-4">MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Contacts Secrion-->
-    <section>
+    <section id="contacts" data-aos="fade-up">
         <div class="container">
             <h2 class="text-center">Contacts</h2>
             <div class="row">
@@ -261,15 +269,55 @@
                     <div class="border p-4 rounded">
                         <h4 class="border-bottom border-dark">Get In Touch</h4>
                         <p>
-                            <i class="ri-mail-fill"></i>    gs6029907@gmail.com
+                            <i class="ri-mail-fill"></i> gs6029907@gmail.com
                         </p>
                         <p>
-                            <i class="ri-phone-fill"></i>  +91 9372036702 
+                            <i class="ri-phone-fill"></i> +91 9372036702
                         </p>
                         <p>
-                            <i class="ri-map-pin-fill"></i>  Mumbai , Maharashtra
+                            <i class="ri-map-pin-fill"></i> Mumbai , Maharashtra
                         </p>
                     </div>
+                    <div class="d-flex" id="icons">
+                        <div>
+                            <a href="https://www.linkedin.com/in/gururaj-sharma-bb0a70322/">
+                                <i class="ri-linkedin-box-fill text-primary fs-2 "></i>
+                            </a>
+                        </div>
+
+                        <div class="p-2">
+                            <a href="https://github.com/CODERGURU26">
+                                <i class="ri-github-fill text-dark fs-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609979298!2d72.7410997708509!3d19.082522326627698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63c3c7b2bb1%3A0xb93c46f448a0f088!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1657274604321!5m2!1sen!2sin"
+                            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-7" id="form">
+                    <form class="p-4  border  rounded bg-light ">
+                        <label>Fullname</label>
+                        <input type="text" name="fullname" placeholder="Gururaj Sharma">
+
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="example@gmail.com">
+
+                        <label>Message Me</label>
+                        <textarea placeholder="Write Your Query Here" name="message" id="message">
+                        </textarea>
+
+                        <button class="btn btn-primary w-100 m-2  rounded p-2">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -281,8 +329,15 @@
         <h2 class="text-center">&copy; 2025 Gururaj Sharma | All Rights Reserved</h2>
     </footer>
 
-    <!-- SLider JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,  // animation duration in ms
+            once: false       // animation runs once per element
+        });
+    </script>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
