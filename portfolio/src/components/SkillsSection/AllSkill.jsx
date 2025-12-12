@@ -5,13 +5,18 @@ import { FaJsSquare, FaReact } from 'react-icons/fa';
 import SingleSkill from './SingleSkill';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../FramerMotion/variant';
+import { RiNextjsLine } from "react-icons/ri";
 
 const skills = [
   { skill: 'HTML', icon: FaHtml5 },
   { skill: 'CSS', icon: SiCss3 },
   { skill: 'JavaScript', icon: FaJsSquare },
+   { skill: 'TailWindCSS', icon: SiTailwindcss },
   { skill: 'ReactJS', icon: FaReact },
-  { skill: 'TailWindCSS', icon: SiTailwindcss },
+  { skill : 'NextJS' , icon : RiNextjsLine},
+  { skill : 'NodeJS' , icon: },
+  { skill : 'ExpressJS', icon :},
+  { skill : 'MongoDB' , icon : }
   { skill: 'MySQL', icon: SiMysql },
 ];
 

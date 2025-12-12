@@ -7,13 +7,15 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import {motion} from 'framer-motion'
 import { fadeIn } from '../FramerMotion/variant';
+import { RiNextjsLine } from "react-icons/ri";
 
 const skills = [
   { skill: 'HTML', icon: FaHtml5 },
   { skill: 'CSS', icon: SiCss3 },
   { skill: 'JavaScript', icon: FaJsSquare },
-  { skill: 'ReactJS', icon: FaReact },
   { skill: 'TailWindCSS', icon: SiTailwindcss },
+  { skill: 'ReactJS', icon: FaReact },
+  { skill : 'NextJS' , icon : RiNextjsLine},
   { skill: 'MySQL', icon: SiMysql },
 ];
 
