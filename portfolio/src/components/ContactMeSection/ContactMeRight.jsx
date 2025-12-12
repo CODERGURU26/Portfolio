@@ -20,7 +20,7 @@ const ContactMeRight = () => {
             {/* Email */}
             <div className="flex items-center gap-4">
                 <TfiEmail className="text-2xl text-orange-400" />
-                <p className="text-lg">gs6029907@gmail.com</p>
+                <p className="text-lg">guruuu2468@gmail.com</p>
             </div>
 
             {/* Phone */}
