@@ -6,17 +6,20 @@ import SingleSkill from './SingleSkill';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../FramerMotion/variant';
 import { RiNextjsLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io5";
 
 const skills = [
   { skill: 'HTML', icon: FaHtml5 },
   { skill: 'CSS', icon: SiCss3 },
   { skill: 'JavaScript', icon: FaJsSquare },
-   { skill: 'TailWindCSS', icon: SiTailwindcss },
+  { skill: 'TailWindCSS', icon: SiTailwindcss },
   { skill: 'ReactJS', icon: FaReact },
   { skill : 'NextJS' , icon : RiNextjsLine},
-  { skill : 'NodeJS' , icon: },
-  { skill : 'ExpressJS', icon :},
-  { skill : 'MongoDB' , icon : }
+  { skill : 'NodeJS' , icon: IoLogoNodejs },
+  { skill : 'ExpressJS', icon : SiExpress},
+  { skill : 'MongoDB' , icon : SiMongodb} , 
   { skill: 'MySQL', icon: SiMysql },
 ];
 
