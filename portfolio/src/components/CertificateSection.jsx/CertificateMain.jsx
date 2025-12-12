@@ -4,11 +4,11 @@ import { fadeIn } from '../FramerMotion/variant'
 
 const certificates = [
   {
-    title: 'Deloitte Tech-Job Simulation',
+    title: 'Full Stack Web Development - SkillUp',
     issuer: 'Forage',
-    date: 'June 2025',
-    link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_Wa5A7J9auzpy2MiNn_1751738303050_completion_certificate.pdf',
-    img: '../../forage iot certificate.jpeg',
+    date: 'December 2025',
+    link: 'https://www.geeksforgeeks.org/certificate/c83f39b6170f19185e4d40e8769d8cd3',
+    img: '../../Full Stack GFG.jpeg',
   },
   {
     title: 'Deloitte - Cyber Simulation',
