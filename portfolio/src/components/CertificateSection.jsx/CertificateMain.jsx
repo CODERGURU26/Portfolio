@@ -18,11 +18,11 @@ const certificates = [
     img: '../../Data Analyst GFG.png',
   },
   {
-    title: 'HTML & CSS Bootcamp by letsUpgrade',
-    issuer: 'letsUpgrade',
-    date: 'July 2025',
-    link: 'https://verify.letsupgrade.in/certificate/LUEHTMLJUL1251512',
-    img: '../../html & css.jpeg',
+    title: 'Introduction To Data Science',
+    issuer: 'Infosys',
+    date: 'June 2025',
+    link: 'https://verify.onwingspan.com/',
+    img: '../../Data Science Infosys.png',
   },
 ]
 
