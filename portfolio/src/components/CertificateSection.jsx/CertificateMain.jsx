@@ -5,17 +5,17 @@ import { fadeIn } from '../FramerMotion/variant'
 const certificates = [
   {
     title: 'Full Stack Web Development - SkillUp',
-    issuer: 'Forage',
+    issuer: 'GeeksforGeeks',
     date: 'December 2025',
     link: 'https://www.geeksforgeeks.org/certificate/c83f39b6170f19185e4d40e8769d8cd3',
     img: '../../Full Stack GFG.jpeg',
   },
   {
-    title: 'Deloitte - Cyber Simulation',
-    issuer: 'Forage',
-    date: 'June 2025',
-    link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_Wa5A7J9auzpy2MiNn_1750129319182_completion_certificate.pdf',
-    img: '../../delliote cyber.jpeg',
+    title: 'Data Analyst - SkillUp',
+    issuer: 'GeeksForGeeks',
+    date: 'September 2025',
+    link: 'https://www.geeksforgeeks.org/certificate/18c3155191a93c8b8e15d3e0500a799f?utm_source=socials&utm_medium=cc_link',
+    img: '../../Data Analyst GFG.png',
   },
   {
     title: 'HTML & CSS Bootcamp by letsUpgrade',
