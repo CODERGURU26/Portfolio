@@ -19,7 +19,7 @@ const projects = [
     },
     {
         title: 'Portfolio',
-        image: '/Portfolio.jpeg',
+        image: '/Portfolio.png',
         description:
             'My personal portfolio built with ReactJS, TailwindCSS , email-JS and Framer Motion providing a responsive and user-friendly experience. Deployed on Vercel.',
         link:'#'
