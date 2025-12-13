@@ -10,8 +10,8 @@ const ContactMeLeft = () => {
   e.preventDefault();
 
   emailjs
-    .sendForm('service_3zc48ee', 'template_esgtlvo', form.current, {
-      publicKey: 'XkA69SFjQZahOB6Np',
+    .sendForm('service_k4624np', 'template_pa3mohn', form.current, {
+      publicKey: 'ixtu6lmxXqwRP5Po1',
     })
     .then(
       () => {
