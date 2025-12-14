@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import NavBtn from './navBtn'
-import NavLinks from './navLinks'
-import NavLogo from './navLogo'
+import NavBtn from './NavBtn'
+import NavLinks from './NavLinks'
+import NavLogo from './NavLogo'
 import { GiHamburgerMenu } from "react-icons/gi"
 
 const NavMain = () => {
