@@ -8,7 +8,7 @@ import SkillMain from './components/SkillsSection/SkillMain'
 import ProjectMain from './components/ProjectsSection/ProjectMain'
 import CertificateMain from './components/CertificateSection.jsx/CertificateMain'
 import ContactMeMain from './components/ContactMeSection/ContactMeMain'
-import 'animate.css';
+import 'animate.css/animate.min.css';
 import FooterMain from './components/Footer/FooterMain'
 
 function App() {
